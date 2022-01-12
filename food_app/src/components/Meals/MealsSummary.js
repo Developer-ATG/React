@@ -5,21 +5,11 @@ const MealsSummary = () => {
     return (
         <section className={classes.summary}>
             <h2>Delicious Food Delivery, now at your door step!</h2>
-            <p>
-                The one you can count on
-                Don’t starve, just order
-                Good food within minutes
-                Delivering happiness
-                Speedy food, good food
-                Freshness delivered
-            </p>
-            <p>
-                Best Service to fulfil your expectations.
-                Let deliciousness twirl in your mouth.
-                We take the teachings of nature.
-                The flavours of your wish.
-                An oasis of deliciousness.
-            </p>
+            <p>Want to eat something delicious right now?</p>
+            <p>If something tastes better than you expected, 
+                you could use the word wow to express your surprise. 
+                If you say something tastes amazing, you’re saying it 
+                tastes even better than great or really good.</p>
         </section>
     )
 }
