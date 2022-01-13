@@ -6,26 +6,32 @@ import MealItem from './MealItem/MealItem';
 const DUMMY_MEALS = [
     {
         id: 'm1',
-        name: 'Vada Samabhar',
-        description: 'Try our delicious Udid Vada with hot and spicy sambhar',
+        name: 'American Cheese Supreme - Veg',
+        description: 'A crispy corn and cheese patty covered with a slice of cheese, creamy cocktail sauce, jalapeos and shredded onions, packed between sesame',
         price: 75,
     },
     {
         id: 'm2',
-        name: 'Pav Bhaji',
-        description: 'Our speciality with lots of butter!',
+        name: 'McVeggie Burger',
+        description: 'A delectable patty filled with potatoes, peas, carrots & tasty Indian spices. Topped with crispy lettuce, mayonnaise packed into toasted sesame buns.',
         price: 120,
     },
     {
         id: 'm3',
-        name: 'Idli Sambhar',
-        description: 'Try our delicious Idli with hot and spicy sambhar',
+        name: 'Mexican Cheesy Fries',
+        description: "The worlds best French Fries now served with delicious cheese sauce and spicy red sauce.Serving only for a limited time!",
         price: 75,
     },
     {
         id: 'm4',
-        name: 'Masala Dosa',
-        description: 'Healthy...and crunchy...',
+        name: 'Veg Maharaja Mac + Mexican Cheesy Fries',
+        description: '10% off! on this combo of Veg Maharajac Mac + Mexican Cheesy Fries',
+        price: 90,
+    },
+    {
+        id: 'm5',
+        name: 'Maharaja Pizza',
+        description: 'Two loaded pizzas with a generous spread of paneer chunks, delicious veggies and the choice of 4 cheese flavours.',
         price: 90,
     },
 ];
