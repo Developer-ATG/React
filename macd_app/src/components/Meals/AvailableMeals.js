@@ -7,11 +7,15 @@ import classes from './AvailableMeals.module.css';
 const AvailableMeals = () => {
   const [meals, setMeals] = useState([]);
   const [isLoading, setisLoading] = useState(true);
+  const [httpError, setHttpError] = useState();
 
   useEffect(() => {
     const fetchMeals = async () => {
       setisLoading(true);
       const response = await fetch('https://react-http-demo-98bc6-default-rtdb.firebaseio.com/meals.json');
+      if (!response.ok) {
+        throw new Error('Unable to load the menu! Try after sometime');
+      }
       const responseData = await response.json();
 
       const loadedMeals = []
@@ -26,13 +30,25 @@ const AvailableMeals = () => {
       setMeals(loadedMeals);
       setisLoading(false);
     };
-    fetchMeals();
+
+    fetchMeals().catch((error) => {
+      setisLoading(false);
+      setHttpError(error.message);
+    });
   }, []);
 
   if (isLoading) {
     return (
       <div className={classes.loader}>
         Loading...
+      </div>
+    );
+  }
+
+  if (httpError) {
+    return (
+      <div className={classes.httpError}>
+        <p>{httpError}</p>
       </div>
     );
   }
