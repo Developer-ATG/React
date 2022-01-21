@@ -31,9 +31,9 @@ const AvailableMeals = () => {
 
   if (isLoading) {
     return (
-      <section className={classes.mealsLoading}>
-        <p>Loading...</p>
-      </section>
+      <div className={classes.loader}>
+        Loading...
+      </div>
     );
   }
 
