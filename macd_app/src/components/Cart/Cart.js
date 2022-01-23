@@ -50,10 +50,19 @@ const Cart = (props) => {
   return (
     <Modal onClose={props.onClose}>
       {cartItems}
-      <div className={classes.total}>
-        <span>{'\u20B9'} Total Amount</span>
-        <span>{totalAmount}</span>
-      </div>
+      {hasItems &&
+        (
+          <div className={classes.total}>
+            <span>{'\u20B9'} Total Amount</span>
+            <span>{totalAmount}</span>
+          </div>
+        )
+      }
+      {!hasItems && (
+        <div>
+          <h1 className={classes.h1}>Your cart is empty :(</h1>
+        </div>
+      )}
       {isOrderCheckout && <Checkout onCancelOrder={props.onClose} />}
       {!isOrderCheckout && modalActionBtns}
     </Modal>
