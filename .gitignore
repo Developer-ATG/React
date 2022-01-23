@@ -2,4 +2,7 @@
 demo/node_modules
 expenses/node_modules
 macd_app/node_modules
+
+demo/.eslintcache
+expenses/.eslintcache
 macd_app/.eslintcache
