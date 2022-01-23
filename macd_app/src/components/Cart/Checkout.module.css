@@ -14,7 +14,7 @@
   display: block;
 }
 
-.control input[type=text], textarea {
+.control input[type=text], .control textarea {
   font: inherit;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -58,7 +58,7 @@
   color: #ca3e51;
 }
 
-.invalid input, textarea {
-  border-color: #aa0b20;
-  background-color: #ffeff1;
+.invalid input, .invalid textarea {
+  border-color: #d63e53;
+  background-color: #e0c5c8;
 }

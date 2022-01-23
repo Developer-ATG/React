@@ -21,7 +21,7 @@ const Checkout = (props) => {
 
         setFormInputsValidity({
             name: enteredNameIsValid,
-            street: enteredAddressIsValid,
+            address: enteredAddressIsValid,
         });
 
         const formIsValid = enteredNameIsValid && enteredAddressIsValid
