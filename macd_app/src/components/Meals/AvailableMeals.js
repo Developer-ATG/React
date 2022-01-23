@@ -9,6 +9,9 @@ const AvailableMeals = () => {
   const [isLoading, setisLoading] = useState(true);
   const [httpError, setHttpError] = useState();
 
+  /**
+   * Fetch menu data from database
+   */
   useEffect(() => {
     const fetchMeals = async () => {
       setisLoading(true);
