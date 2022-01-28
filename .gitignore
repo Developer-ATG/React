@@ -1,3 +1,4 @@
+.gitignore
 # dependencies
 demo/node_modules
 expenses/node_modules
