@@ -1,0 +1,15 @@
+.products {
+	background-color: rgb(199, 231, 231);
+}
+.products h2 {
+	color: rgb(0, 0, 0);
+	margin: 2rem auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.products ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
