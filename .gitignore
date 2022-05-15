@@ -4,8 +4,10 @@ demo/node_modules
 expenses/node_modules
 macd_app/node_modules
 advanced_redux/node_modules
+movieDb/node_modules
 
 demo/.eslintcache
 expenses/.eslintcache
 macd_app/.eslintcache
 advanced_redux/.eslintcache
+movieDb/.eslintcache
