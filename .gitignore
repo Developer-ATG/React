@@ -1,4 +1,5 @@
 .gitignore
+.jsconfig.json
 # dependencies
 demo/node_modules
 expenses/node_modules
