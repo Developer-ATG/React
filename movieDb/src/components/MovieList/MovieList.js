@@ -21,9 +21,6 @@ const MovieList = (props) => {
 	return (
 		<div className="movie-wrapper">
 			<div className="movie-card">
-				<p className="sub-header">
-					Movie results with keyword : <i>"{props.movieName}"</i>
-				</p>
 				<div className="movie-container">{renderMovies}</div>
 			</div>
 		</div>
