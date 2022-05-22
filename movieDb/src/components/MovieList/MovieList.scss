@@ -1,6 +1,6 @@
 @import "../../common/colors.scss";
 
-.movie-card {
+.movie-card, .show-card {
 	margin: 20px 0px;
 	
     h2 {
@@ -10,7 +10,7 @@
 	}
 }
 
-.movie-container {
+.movie-container, .show-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     grid-gap: 15px;
