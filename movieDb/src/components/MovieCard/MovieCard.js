@@ -12,7 +12,7 @@ const MovieCard = (props) => {
 				</div>
 				<div className="card-bottom">
 					<div className="card-info">
-						<h4 className="lineUp">{data.Title}</h4>
+						<h4>{data.Title}</h4>
 						<p>{data.Year}</p>
 					</div>
 				</div>
