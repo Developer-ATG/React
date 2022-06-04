@@ -1,9 +1,12 @@
-import './index.scss';
+import Sidebar from "../Sidebar";
+import "./index.scss";
 
-const index = () => {
-  return (
-    <h1>index</h1>
-  )
-}
+const Layout = () => {
+	return (
+		<>
+			<Sidebar></Sidebar>
+		</>
+	);
+};
 
-export default index
+export default Layout;
