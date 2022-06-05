@@ -40,6 +40,7 @@
 			display: block;
 			line-height: 51px;
 			position: relative;
+			text-decoration: none;
 
 			i {
 				transition: all 0.3s ease-out;
@@ -95,5 +96,30 @@
                 color: $primary-color;
             }
         }
+	}
+
+	ul {
+		position: absolute;
+		bottom: 20px;
+		width: 100%;
+		display: block;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		margin: 0;
+
+		li {
+			a {
+				padding: 7px 0;
+				display: block;
+				font-size: 15px;
+				line-height: 16px;
+
+				&:hover svg{
+					color: $primary-color;
+				}
+			}
+		}
+
 	}
 }
